@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Babylon.js AR Demo</title>
+  <style>
+    html, body, canvas {
+      width:100%; height:100%; margin:0; padding:0; overflow:hidden;
+    }
+  </style>
+
+  <!-- 1) Babylon Debug Build -->
+  <script src="https://cdn.babylonjs.com/babylon.max.js"></script>
+  <!-- 2) Loader untuk glTF (.glb) -->
+  <script src="https://cdn.babylonjs.com/loaders/babylon.glTF2FileLoader.js"></script>
+</head>
+<body>
+  <!-- 3) Canvas target untuk Babylon -->
+  <canvas id="renderCanvas"></canvas>
+
+  <!-- 4) Logika AR di app.js -->
+  <script src="app.js"></script>
+</body>
+</html>
